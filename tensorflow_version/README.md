@@ -1,6 +1,7 @@
 # Named Entity Recognition with Tensorflow
 
-This project is inspired by the [CS230-project], built with personalized folder structure and additional models.
+This project is inspired by the [CS230-project](https://github.com/cs230-stanford/cs230-code-examples), built with 
+personalized folder structure and additional models.
 
 ## Requirements
 ```
@@ -19,8 +20,9 @@ B-PER  O     O  B-LOC I-LOC
 ```
 
 ## Demo Data
-Following the [CS230-project], the project use the data from [Kaggel](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus/data), 
-download the ner_dataset.csv and save it under the data directory(all wherever you'd like to save it, just remember the path).
+Following the [CS230-project](https://github.com/cs230-stanford/cs230-code-examples), the project use the data from 
+[Kaggel](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus/data), download the ner_dataset.csv and save it 
+under the data directory(all wherever you'd like to save it, just remember the path).
 
 ## Usage
 This contains several steps:
@@ -57,7 +59,7 @@ python run.py --predict
 ```
 
 ## Folder Structure
-The architecture of this project is based on [cs230-example](https://github.com/cs230-stanford/cs230-code-examples), 
+The architecture of this project is based on [cs230-project](https://github.com/cs230-stanford/cs230-code-examples), 
 [Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template) and 
 [this blog](https://blog.metaflow.fr/tensorflow-a-proposal-of-good-practices-for-files-folders-and-models-architecture-f23171501ae3).
 ```
@@ -86,9 +88,3 @@ The architecture of this project is based on [cs230-example](https://github.com/
 - Finish the todo list
 - Implements more models in some highlight papers.
 - Abstract the project template, and build another repository for me to reuse the template easily.
-
-
-
-
-
-
