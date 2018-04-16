@@ -28,6 +28,7 @@ flags.DEFINE_boolean('train', False, 'Train the model with current config and st
 #                     'The directory to store all the things of this experiment')
 flags.DEFINE_string('vocab_dir', base_dir + '/data/CoNLL2002/vocab', 'Directory to save the vocab')
 flags.DEFINE_string('logger_name', 'test', "Logger's name")
+flags.DEFINE_string('predict', '', 'Predict on the test set and save the results')
 
 # model hyperparameters
 flags.DEFINE_integer('embed_size', 50, 'The embedding size for words')
@@ -122,6 +123,10 @@ def main(_):
 
         # train the model
         model.train(train_set, dev_set)
+
+    if config.predict:
+        # TODO: finish the predict part
+        pass
 
 
 if __name__ == '__main__':
